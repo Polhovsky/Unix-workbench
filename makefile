@@ -8,7 +8,7 @@ tod=$(shell date)
 README.md:
 	touch README.md
 	echo "# Unix workbench guessing game readme" >> README.md
-	echo "Make run on: $(tod)" >> README.md
+	echo "Make was run on: $(tod)" >> README.md
 	echo "" >> README.md
 	echo "There are $(nlines) lines in guessinggame.sh" >> README.md
 
